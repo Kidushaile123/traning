@@ -1,4 +1,4 @@
-# traning
+# training
 
 |       Sample            | Time   |  Condition   |    Sorted|
 | ----------------------- |--------|------------- |----------|
