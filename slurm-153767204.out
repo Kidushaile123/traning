@@ -1,0 +1,341 @@
+picard is set to write temporary files to /tmp/haile023/picard_temp
+Invoke a specific picard tool with the command: java -jar /panfs/roc/msisoft/picard/2.25.6/picard.jar
+53880710 reads; of these:
+  53880710 (100.00%) were paired; of these:
+    33999115 (63.10%) aligned concordantly 0 times
+    14446946 (26.81%) aligned concordantly exactly 1 time
+    5434649 (10.09%) aligned concordantly >1 times
+    ----
+    33999115 pairs aligned concordantly 0 times; of these:
+      2686697 (7.90%) aligned discordantly 1 time
+    ----
+    31312418 pairs aligned 0 times concordantly or discordantly; of these:
+      62624836 mates make up the pairs; of these:
+        58880413 (94.02%) aligned 0 times
+        1037109 (1.66%) aligned exactly 1 time
+        2707314 (4.32%) aligned >1 times
+45.36% overall alignment rate
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/tmp/haile023/picard_temp
+INFO	2022-12-27 14:53:39	SortSam	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    SortSam -I /scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.bam -O /scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.sorted.bam -SORT_ORDER coordinate -TMP_DIR /scratch.global/haile023/temp_files -CREATE_INDEX true -VALIDATION_STRINGENCY SILENT -CREATE_MD5_FILE true
+**********
+
+
+14:53:39.848 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/panfs/roc/msisoft/picard/2.25.6/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Tue Dec 27 14:53:40 CST 2022] SortSam INPUT=/scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.bam OUTPUT=/scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.sorted.bam SORT_ORDER=coordinate TMP_DIR=[/scratch.global/haile023/temp_files] VALIDATION_STRINGENCY=SILENT CREATE_INDEX=true CREATE_MD5_FILE=true    VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Tue Dec 27 14:53:40 CST 2022] Executing as haile023@acn171.agate.msi.umn.edu on Linux 3.10.0-1160.80.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 1.8.0_202-b08; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.25.6
+INFO	2022-12-27 14:53:40	SortSam	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2022-12-27 14:54:34	SortSam	Read    10,000,000 records.  Elapsed time: 00:00:54s.  Time for last 10,000,000:   54s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1208:1633:8202
+INFO	2022-12-27 14:55:20	SortSam	Read    20,000,000 records.  Elapsed time: 00:01:40s.  Time for last 10,000,000:   45s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1315:31015:13495
+INFO	2022-12-27 14:56:12	SortSam	Read    30,000,000 records.  Elapsed time: 00:02:32s.  Time for last 10,000,000:   52s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1422:26612:15922
+INFO	2022-12-27 14:57:06	SortSam	Read    40,000,000 records.  Elapsed time: 00:03:26s.  Time for last 10,000,000:   53s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1529:17499:12195
+INFO	2022-12-27 14:57:55	SortSam	Read    50,000,000 records.  Elapsed time: 00:04:14s.  Time for last 10,000,000:   48s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1636:5321:4351
+INFO	2022-12-27 14:58:49	SortSam	Read    60,000,000 records.  Elapsed time: 00:05:09s.  Time for last 10,000,000:   54s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2145:25201:11631
+INFO	2022-12-27 14:59:36	SortSam	Read    70,000,000 records.  Elapsed time: 00:05:55s.  Time for last 10,000,000:   46s.  Last read position: chr4:45,449,431.  Last read name: A00223:818:HJVVJDSX3:3:2256:1235:15342
+INFO	2022-12-27 15:00:26	SortSam	Read    80,000,000 records.  Elapsed time: 00:06:46s.  Time for last 10,000,000:   50s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2367:2456:5368
+INFO	2022-12-27 15:01:05	SortSam	Read    90,000,000 records.  Elapsed time: 00:07:25s.  Time for last 10,000,000:   39s.  Last read position: chrM:4,896.  Last read name: A00223:818:HJVVJDSX3:3:2477:10520:28510
+INFO	2022-12-27 15:01:43	SortSam	Read   100,000,000 records.  Elapsed time: 00:08:02s.  Time for last 10,000,000:   37s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2610:29188:15937
+INFO	2022-12-27 15:02:16	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2022-12-27 15:03:15	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:09:34s.  Time for last 10,000,000:   57s.  Last read position: chr13:10,230,282
+INFO	2022-12-27 15:04:18	SortSam	Wrote    20,000,000 records from a sorting collection.  Elapsed time: 00:10:38s.  Time for last 10,000,000:   63s.  Last read position: chr2:22,587,935
+INFO	2022-12-27 15:05:23	SortSam	Wrote    30,000,000 records from a sorting collection.  Elapsed time: 00:11:43s.  Time for last 10,000,000:   65s.  Last read position: chr5:140,492,373
+INFO	2022-12-27 15:06:40	SortSam	Wrote    40,000,000 records from a sorting collection.  Elapsed time: 00:12:59s.  Time for last 10,000,000:   76s.  Last read position: chrM:1,966
+INFO	2022-12-27 15:07:45	SortSam	Wrote    50,000,000 records from a sorting collection.  Elapsed time: 00:14:04s.  Time for last 10,000,000:   65s.  Last read position: chrUn_JH584304:59,797
+INFO	2022-12-27 15:08:30	SortSam	Wrote    60,000,000 records from a sorting collection.  Elapsed time: 00:14:50s.  Time for last 10,000,000:   45s.  Last read position: */*
+INFO	2022-12-27 15:09:12	SortSam	Wrote    70,000,000 records from a sorting collection.  Elapsed time: 00:15:32s.  Time for last 10,000,000:   42s.  Last read position: */*
+INFO	2022-12-27 15:09:54	SortSam	Wrote    80,000,000 records from a sorting collection.  Elapsed time: 00:16:14s.  Time for last 10,000,000:   42s.  Last read position: */*
+INFO	2022-12-27 15:10:38	SortSam	Wrote    90,000,000 records from a sorting collection.  Elapsed time: 00:16:58s.  Time for last 10,000,000:   44s.  Last read position: */*
+INFO	2022-12-27 15:11:21	SortSam	Wrote   100,000,000 records from a sorting collection.  Elapsed time: 00:17:40s.  Time for last 10,000,000:   42s.  Last read position: */*
+[Tue Dec 27 15:12:02 CST 2022] picard.sam.SortSam done. Elapsed time: 18.38 minutes.
+Runtime.totalMemory()=3288858624
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/tmp/haile023/picard_temp
+INFO	2022-12-27 15:12:03	FixMateInformation	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    FixMateInformation -I /scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.sorted.bam -O /scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.sorted.fixed_mate.bam -TMP_DIR /scratch.global/haile023/temp_files -CREATE_INDEX true -VALIDATION_STRINGENCY SILENT -CREATE_MD5_FILE true
+**********
+
+
+15:12:03.743 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/panfs/roc/msisoft/picard/2.25.6/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Tue Dec 27 15:12:04 CST 2022] FixMateInformation INPUT=[/scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.sorted.bam] OUTPUT=/scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.sorted.fixed_mate.bam TMP_DIR=[/scratch.global/haile023/temp_files] VALIDATION_STRINGENCY=SILENT CREATE_INDEX=true CREATE_MD5_FILE=true    ASSUME_SORTED=false ADD_MATE_CIGAR=true IGNORE_MISSING_MATES=true VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Tue Dec 27 15:12:04 CST 2022] Executing as haile023@acn171.agate.msi.umn.edu on Linux 3.10.0-1160.80.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 1.8.0_202-b08; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.25.6
+INFO	2022-12-27 15:12:04	FixMateInformation	Sorting input into queryname order.
+INFO	2022-12-27 15:18:53	FixMateInformation	Sorting by queryname complete.
+INFO	2022-12-27 15:18:53	FixMateInformation	Output will be sorted by coordinate
+INFO	2022-12-27 15:18:53	FixMateInformation	Traversing query name sorted records and fixing up mate pair information.
+INFO	2022-12-27 15:18:53	FixMateInformation	Seen many non-increasing record positions. Printing Read-names as well.
+INFO	2022-12-27 15:18:58	FixMateInformation	Processed     1,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    4s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1109:25346:32268
+INFO	2022-12-27 15:19:06	FixMateInformation	Processed     2,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:    7s.  Last read position: chr17:19,503,762.  Last read name: A00223:818:HJVVJDSX3:3:1118:12210:23735
+INFO	2022-12-27 15:19:14	FixMateInformation	Processed     3,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:    8s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1126:26359:34773
+INFO	2022-12-27 15:19:20	FixMateInformation	Processed     4,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:    5s.  Last read position: chr18:10,345,219.  Last read name: A00223:818:HJVVJDSX3:3:1135:11207:8218
+INFO	2022-12-27 15:19:28	FixMateInformation	Processed     5,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1143:25509:25097
+INFO	2022-12-27 15:19:36	FixMateInformation	Processed     6,000,000 records.  Elapsed time: 00:00:42s.  Time for last 1,000,000:    8s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1152:10628:12508
+INFO	2022-12-27 15:19:43	FixMateInformation	Processed     7,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1160:24433:21574
+INFO	2022-12-27 15:19:52	FixMateInformation	Processed     8,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    8s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1169:10583:28401
+INFO	2022-12-27 15:20:00	FixMateInformation	Processed     9,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    8s.  Last read position: chrM:1,253.  Last read name: A00223:818:HJVVJDSX3:3:1177:28827:9079
+INFO	2022-12-27 15:20:08	FixMateInformation	Processed    10,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:    7s.  Last read position: chrM:14,913.  Last read name: A00223:818:HJVVJDSX3:3:1208:15899:6042
+INFO	2022-12-27 15:20:16	FixMateInformation	Processed    11,000,000 records.  Elapsed time: 00:01:23s.  Time for last 1,000,000:    8s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1216:31051:22420
+INFO	2022-12-27 15:20:23	FixMateInformation	Processed    12,000,000 records.  Elapsed time: 00:01:29s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1225:1660:6402
+INFO	2022-12-27 15:20:30	FixMateInformation	Processed    13,000,000 records.  Elapsed time: 00:01:37s.  Time for last 1,000,000:    7s.  Last read position: chr12:34,220,501.  Last read name: A00223:818:HJVVJDSX3:3:1233:31006:20619
+INFO	2022-12-27 15:20:38	FixMateInformation	Processed    14,000,000 records.  Elapsed time: 00:01:45s.  Time for last 1,000,000:    8s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1242:16667:2112
+INFO	2022-12-27 15:20:46	FixMateInformation	Processed    15,000,000 records.  Elapsed time: 00:01:53s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1250:3061:14810
+INFO	2022-12-27 15:20:52	FixMateInformation	Processed    16,000,000 records.  Elapsed time: 00:01:59s.  Time for last 1,000,000:    6s.  Last read position: chr16:73,471,330.  Last read name: A00223:818:HJVVJDSX3:3:1259:16179:22717
+INFO	2022-12-27 15:21:00	FixMateInformation	Processed    17,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    7s.  Last read position: chr1_GL456211_random:136,255.  Last read name: A00223:818:HJVVJDSX3:3:1267:31349:9345
+INFO	2022-12-27 15:21:07	FixMateInformation	Processed    18,000,000 records.  Elapsed time: 00:02:13s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1276:19479:11115
+INFO	2022-12-27 15:21:15	FixMateInformation	Processed    19,000,000 records.  Elapsed time: 00:02:21s.  Time for last 1,000,000:    8s.  Last read position: chr14:16,152,748.  Last read name: A00223:818:HJVVJDSX3:3:1306:6008:32064
+INFO	2022-12-27 15:21:21	FixMateInformation	Processed    20,000,000 records.  Elapsed time: 00:02:27s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1315:2031:14309
+INFO	2022-12-27 15:21:27	FixMateInformation	Processed    21,000,000 records.  Elapsed time: 00:02:33s.  Time for last 1,000,000:    6s.  Last read position: chr9:18,474,112.  Last read name: A00223:818:HJVVJDSX3:3:1323:4670:8359
+INFO	2022-12-27 15:21:32	FixMateInformation	Processed    22,000,000 records.  Elapsed time: 00:02:39s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1332:19388:34882
+INFO	2022-12-27 15:21:40	FixMateInformation	Processed    23,000,000 records.  Elapsed time: 00:02:47s.  Time for last 1,000,000:    8s.  Last read position: chrM:4,280.  Last read name: A00223:818:HJVVJDSX3:3:1340:3387:9612
+INFO	2022-12-27 15:21:46	FixMateInformation	Processed    24,000,000 records.  Elapsed time: 00:02:53s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1349:18602:36714
+INFO	2022-12-27 15:21:54	FixMateInformation	Processed    25,000,000 records.  Elapsed time: 00:03:01s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1357:3676:13933
+INFO	2022-12-27 15:22:01	FixMateInformation	Processed    26,000,000 records.  Elapsed time: 00:03:08s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1366:19696:36198
+INFO	2022-12-27 15:22:09	FixMateInformation	Processed    27,000,000 records.  Elapsed time: 00:03:16s.  Time for last 1,000,000:    7s.  Last read position: chrM:1,761.  Last read name: A00223:818:HJVVJDSX3:3:1374:5611:9612
+INFO	2022-12-27 15:22:17	FixMateInformation	Processed    28,000,000 records.  Elapsed time: 00:03:23s.  Time for last 1,000,000:    7s.  Last read position: chr17:71,140,779.  Last read name: A00223:818:HJVVJDSX3:3:1405:21404:35055
+INFO	2022-12-27 15:22:24	FixMateInformation	Processed    29,000,000 records.  Elapsed time: 00:03:31s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1413:6813:35650
+INFO	2022-12-27 15:22:32	FixMateInformation	Processed    30,000,000 records.  Elapsed time: 00:03:39s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1422:21992:7326
+INFO	2022-12-27 15:22:40	FixMateInformation	Processed    31,000,000 records.  Elapsed time: 00:03:46s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1430:6632:2268
+INFO	2022-12-27 15:22:48	FixMateInformation	Processed    32,000,000 records.  Elapsed time: 00:03:54s.  Time for last 1,000,000:    8s.  Last read position: chr1:46,398,256.  Last read name: A00223:818:HJVVJDSX3:3:1439:2022:13041
+INFO	2022-12-27 15:22:56	FixMateInformation	Processed    33,000,000 records.  Elapsed time: 00:04:02s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1447:4453:8171
+INFO	2022-12-27 15:23:03	FixMateInformation	Processed    34,000,000 records.  Elapsed time: 00:04:09s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1456:19407:4131
+INFO	2022-12-27 15:23:10	FixMateInformation	Processed    35,000,000 records.  Elapsed time: 00:04:17s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1464:3830:12665
+INFO	2022-12-27 15:23:16	FixMateInformation	Processed    36,000,000 records.  Elapsed time: 00:04:22s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1473:19470:2581
+INFO	2022-12-27 15:23:23	FixMateInformation	Processed    37,000,000 records.  Elapsed time: 00:04:30s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1503:4906:28275
+INFO	2022-12-27 15:23:30	FixMateInformation	Processed    38,000,000 records.  Elapsed time: 00:04:37s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1512:19533:2816
+INFO	2022-12-27 15:23:37	FixMateInformation	Processed    39,000,000 records.  Elapsed time: 00:04:43s.  Time for last 1,000,000:    6s.  Last read position: chr17:56,954,029.  Last read name: A00223:818:HJVVJDSX3:3:1520:3947:21136
+INFO	2022-12-27 15:23:44	FixMateInformation	Processed    40,000,000 records.  Elapsed time: 00:04:50s.  Time for last 1,000,000:    6s.  Last read position: chr2:98,662,558.  Last read name: A00223:818:HJVVJDSX3:3:1529:18936:9330
+INFO	2022-12-27 15:23:51	FixMateInformation	Processed    41,000,000 records.  Elapsed time: 00:04:57s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1537:3387:26960
+INFO	2022-12-27 15:23:57	FixMateInformation	Processed    42,000,000 records.  Elapsed time: 00:05:03s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1546:17861:11381
+INFO	2022-12-27 15:24:03	FixMateInformation	Processed    43,000,000 records.  Elapsed time: 00:05:10s.  Time for last 1,000,000:    6s.  Last read position: chr3:69,323,167.  Last read name: A00223:818:HJVVJDSX3:3:1554:31810:10927
+INFO	2022-12-27 15:24:09	FixMateInformation	Processed    44,000,000 records.  Elapsed time: 00:05:15s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1563:16658:12712
+INFO	2022-12-27 15:24:15	FixMateInformation	Processed    45,000,000 records.  Elapsed time: 00:05:21s.  Time for last 1,000,000:    5s.  Last read position: chr13:21,142,778.  Last read name: A00223:818:HJVVJDSX3:3:1571:30725:15280
+INFO	2022-12-27 15:24:21	FixMateInformation	Processed    46,000,000 records.  Elapsed time: 00:05:27s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1602:15203:21120
+INFO	2022-12-27 15:24:28	FixMateInformation	Processed    47,000,000 records.  Elapsed time: 00:05:34s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1610:2971:4476
+INFO	2022-12-27 15:24:33	FixMateInformation	Processed    48,000,000 records.  Elapsed time: 00:05:40s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1619:15076:21339
+INFO	2022-12-27 15:24:41	FixMateInformation	Processed    49,000,000 records.  Elapsed time: 00:05:47s.  Time for last 1,000,000:    7s.  Last read position: chrX:165,328,005.  Last read name: A00223:818:HJVVJDSX3:3:1627:28926:31798
+INFO	2022-12-27 15:24:47	FixMateInformation	Processed    50,000,000 records.  Elapsed time: 00:05:54s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1636:12915:14184
+INFO	2022-12-27 15:24:53	FixMateInformation	Processed    51,000,000 records.  Elapsed time: 00:05:59s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1644:2700:7326
+INFO	2022-12-27 15:24:59	FixMateInformation	Processed    52,000,000 records.  Elapsed time: 00:06:05s.  Time for last 1,000,000:    5s.  Last read position: chr2:46,264,189.  Last read name: A00223:818:HJVVJDSX3:3:1653:11162:28401
+INFO	2022-12-27 15:25:04	FixMateInformation	Processed    53,000,000 records.  Elapsed time: 00:06:10s.  Time for last 1,000,000:    5s.  Last read position: chr7:94,418,768.  Last read name: A00223:818:HJVVJDSX3:3:1661:25310:20400
+INFO	2022-12-27 15:25:10	FixMateInformation	Processed    54,000,000 records.  Elapsed time: 00:06:17s.  Time for last 1,000,000:    6s.  Last read position: chr6:62,384,725.  Last read name: A00223:818:HJVVJDSX3:3:1669:9462:17315
+INFO	2022-12-27 15:25:16	FixMateInformation	Processed    55,000,000 records.  Elapsed time: 00:06:22s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:1678:23185:25895
+INFO	2022-12-27 15:25:22	FixMateInformation	Processed    56,000,000 records.  Elapsed time: 00:06:29s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2109:26603:32690
+INFO	2022-12-27 15:25:28	FixMateInformation	Processed    57,000,000 records.  Elapsed time: 00:06:35s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2118:29514:2065
+INFO	2022-12-27 15:25:35	FixMateInformation	Processed    58,000,000 records.  Elapsed time: 00:06:41s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2127:28556:27712
+INFO	2022-12-27 15:25:42	FixMateInformation	Processed    59,000,000 records.  Elapsed time: 00:06:49s.  Time for last 1,000,000:    7s.  Last read position: chr7:76,286,859.  Last read name: A00223:818:HJVVJDSX3:3:2136:23809:30264
+INFO	2022-12-27 15:25:50	FixMateInformation	Processed    60,000,000 records.  Elapsed time: 00:06:56s.  Time for last 1,000,000:    7s.  Last read position: chr1:24,613,579.  Last read name: A00223:818:HJVVJDSX3:3:2145:1868:17284
+INFO	2022-12-27 15:25:56	FixMateInformation	Processed    61,000,000 records.  Elapsed time: 00:07:03s.  Time for last 1,000,000:    6s.  Last read position: chr7:114,037,019.  Last read name: A00223:818:HJVVJDSX3:3:2154:14606:25911
+INFO	2022-12-27 15:26:03	FixMateInformation	Processed    62,000,000 records.  Elapsed time: 00:07:10s.  Time for last 1,000,000:    7s.  Last read position: chr15:61,979,629.  Last read name: A00223:818:HJVVJDSX3:3:2163:10791:22091
+INFO	2022-12-27 15:26:11	FixMateInformation	Processed    63,000,000 records.  Elapsed time: 00:07:17s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2171:7039:23484
+INFO	2022-12-27 15:26:18	FixMateInformation	Processed    64,000,000 records.  Elapsed time: 00:07:25s.  Time for last 1,000,000:    7s.  Last read position: chrM:5,138.  Last read name: A00223:818:HJVVJDSX3:3:2203:12120:27336
+INFO	2022-12-27 15:26:27	FixMateInformation	Processed    65,000,000 records.  Elapsed time: 00:07:33s.  Time for last 1,000,000:    8s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2212:13413:20275
+INFO	2022-12-27 15:26:33	FixMateInformation	Processed    66,000,000 records.  Elapsed time: 00:07:39s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2221:12888:9565
+INFO	2022-12-27 15:26:39	FixMateInformation	Processed    67,000,000 records.  Elapsed time: 00:07:46s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2229:7916:15546
+INFO	2022-12-27 15:26:47	FixMateInformation	Processed    68,000,000 records.  Elapsed time: 00:07:54s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2238:31919:2566
+INFO	2022-12-27 15:26:54	FixMateInformation	Processed    69,000,000 records.  Elapsed time: 00:08:00s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2247:25581:21214
+INFO	2022-12-27 15:27:02	FixMateInformation	Processed    70,000,000 records.  Elapsed time: 00:08:08s.  Time for last 1,000,000:    7s.  Last read position: chr16:40,902,049.  Last read name: A00223:818:HJVVJDSX3:3:2256:2166:13103
+INFO	2022-12-27 15:27:09	FixMateInformation	Processed    71,000,000 records.  Elapsed time: 00:08:16s.  Time for last 1,000,000:    7s.  Last read position: chrM:2,230.  Last read name: A00223:818:HJVVJDSX3:3:2265:16251:29387
+INFO	2022-12-27 15:27:16	FixMateInformation	Processed    72,000,000 records.  Elapsed time: 00:08:22s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2274:14362:35697
+INFO	2022-12-27 15:27:23	FixMateInformation	Processed    73,000,000 records.  Elapsed time: 00:08:30s.  Time for last 1,000,000:    7s.  Last read position: chr4:56,151,175.  Last read name: A00223:818:HJVVJDSX3:3:2305:13829:5650
+INFO	2022-12-27 15:27:31	FixMateInformation	Processed    74,000,000 records.  Elapsed time: 00:08:37s.  Time for last 1,000,000:    7s.  Last read position: chr13:104,816,511.  Last read name: A00223:818:HJVVJDSX3:3:2314:12355:8609
+INFO	2022-12-27 15:27:38	FixMateInformation	Processed    75,000,000 records.  Elapsed time: 00:08:45s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2322:9588:7138
+INFO	2022-12-27 15:27:47	FixMateInformation	Processed    76,000,000 records.  Elapsed time: 00:08:53s.  Time for last 1,000,000:    8s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2331:4915:23156
+INFO	2022-12-27 15:27:53	FixMateInformation	Processed    77,000,000 records.  Elapsed time: 00:08:59s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2340:28754:21637
+INFO	2022-12-27 15:27:58	FixMateInformation	Processed    78,000,000 records.  Elapsed time: 00:09:05s.  Time for last 1,000,000:    5s.  Last read position: chrM:6,213.  Last read name: A00223:818:HJVVJDSX3:3:2349:2320:2253
+INFO	2022-12-27 15:28:04	FixMateInformation	Processed    79,000,000 records.  Elapsed time: 00:09:11s.  Time for last 1,000,000:    6s.  Last read position: chr19:44,298,389.  Last read name: A00223:818:HJVVJDSX3:3:2358:18719:3223
+INFO	2022-12-27 15:28:11	FixMateInformation	Processed    80,000,000 records.  Elapsed time: 00:09:18s.  Time for last 1,000,000:    6s.  Last read position: chr4:130,878,967.  Last read name: A00223:818:HJVVJDSX3:3:2367:13521:27696
+INFO	2022-12-27 15:28:18	FixMateInformation	Processed    81,000,000 records.  Elapsed time: 00:09:24s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2375:9598:1391
+INFO	2022-12-27 15:28:26	FixMateInformation	Processed    82,000,000 records.  Elapsed time: 00:09:33s.  Time for last 1,000,000:    8s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2406:7157:7435
+INFO	2022-12-27 15:28:31	FixMateInformation	Processed    83,000,000 records.  Elapsed time: 00:09:38s.  Time for last 1,000,000:    5s.  Last read position: chrM:13,011.  Last read name: A00223:818:HJVVJDSX3:3:2415:8169:16391
+INFO	2022-12-27 15:28:38	FixMateInformation	Processed    84,000,000 records.  Elapsed time: 00:09:45s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2424:4987:19335
+INFO	2022-12-27 15:28:44	FixMateInformation	Processed    85,000,000 records.  Elapsed time: 00:09:51s.  Time for last 1,000,000:    5s.  Last read position: chr1:82,291,678.  Last read name: A00223:818:HJVVJDSX3:3:2433:29884:24314
+INFO	2022-12-27 15:28:50	FixMateInformation	Processed    86,000,000 records.  Elapsed time: 00:09:56s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2442:25156:6731
+INFO	2022-12-27 15:28:56	FixMateInformation	Processed    87,000,000 records.  Elapsed time: 00:10:02s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2451:20094:37043
+INFO	2022-12-27 15:29:04	FixMateInformation	Processed    88,000,000 records.  Elapsed time: 00:10:10s.  Time for last 1,000,000:    8s.  Last read position: chr18:17,440,373.  Last read name: A00223:818:HJVVJDSX3:3:2460:14651:11647
+INFO	2022-12-27 15:29:10	FixMateInformation	Processed    89,000,000 records.  Elapsed time: 00:10:16s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2468:9082:36323
+INFO	2022-12-27 15:29:18	FixMateInformation	Processed    90,000,000 records.  Elapsed time: 00:10:24s.  Time for last 1,000,000:    7s.  Last read position: chr13:107,024,402.  Last read name: A00223:818:HJVVJDSX3:3:2477:32190:2472
+INFO	2022-12-27 15:29:24	FixMateInformation	Processed    91,000,000 records.  Elapsed time: 00:10:30s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2508:30734:23249
+INFO	2022-12-27 15:29:32	FixMateInformation	Processed    92,000,000 records.  Elapsed time: 00:10:38s.  Time for last 1,000,000:    8s.  Last read position: chr7:145,340,932.  Last read name: A00223:818:HJVVJDSX3:3:2517:30608:23657
+INFO	2022-12-27 15:29:40	FixMateInformation	Processed    93,000,000 records.  Elapsed time: 00:10:46s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2526:26720:33301
+INFO	2022-12-27 15:29:47	FixMateInformation	Processed    94,000,000 records.  Elapsed time: 00:10:53s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2535:22128:11193
+INFO	2022-12-27 15:29:53	FixMateInformation	Processed    95,000,000 records.  Elapsed time: 00:10:59s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2544:16297:26428
+INFO	2022-12-27 15:30:00	FixMateInformation	Processed    96,000,000 records.  Elapsed time: 00:11:06s.  Time for last 1,000,000:    6s.  Last read position: chr1:60,722,112.  Last read name: A00223:818:HJVVJDSX3:3:2553:11134:13949
+INFO	2022-12-27 15:30:05	FixMateInformation	Processed    97,000,000 records.  Elapsed time: 00:11:12s.  Time for last 1,000,000:    5s.  Last read position: chr13:40,763,553.  Last read name: A00223:818:HJVVJDSX3:3:2561:4707:13589
+INFO	2022-12-27 15:30:11	FixMateInformation	Processed    98,000,000 records.  Elapsed time: 00:11:18s.  Time for last 1,000,000:    5s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2570:28384:29199
+INFO	2022-12-27 15:30:20	FixMateInformation	Processed    99,000,000 records.  Elapsed time: 00:11:26s.  Time for last 1,000,000:    8s.  Last read position: chr12:101,164,132.  Last read name: A00223:818:HJVVJDSX3:3:2601:22010:10551
+INFO	2022-12-27 15:30:25	FixMateInformation	Processed   100,000,000 records.  Elapsed time: 00:11:32s.  Time for last 1,000,000:    5s.  Last read position: chr1:8,688,909.  Last read name: A00223:818:HJVVJDSX3:3:2610:22155:9204
+INFO	2022-12-27 15:30:31	FixMateInformation	Processed   101,000,000 records.  Elapsed time: 00:11:38s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2619:21296:22780
+INFO	2022-12-27 15:30:38	FixMateInformation	Processed   102,000,000 records.  Elapsed time: 00:11:44s.  Time for last 1,000,000:    6s.  Last read position: chr10:7,884,648.  Last read name: A00223:818:HJVVJDSX3:3:2628:17345:11866
+INFO	2022-12-27 15:30:45	FixMateInformation	Processed   103,000,000 records.  Elapsed time: 00:11:51s.  Time for last 1,000,000:    6s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2637:12301:2440
+INFO	2022-12-27 15:30:53	FixMateInformation	Processed   104,000,000 records.  Elapsed time: 00:11:59s.  Time for last 1,000,000:    7s.  Last read position: chrM:5,380.  Last read name: A00223:818:HJVVJDSX3:3:2645:7392:9220
+INFO	2022-12-27 15:31:00	FixMateInformation	Processed   105,000,000 records.  Elapsed time: 00:12:06s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2654:31412:6042
+INFO	2022-12-27 15:31:05	FixMateInformation	Processed   106,000,000 records.  Elapsed time: 00:12:12s.  Time for last 1,000,000:    5s.  Last read position: chr11:79,300,526.  Last read name: A00223:818:HJVVJDSX3:3:2663:26802:25708
+INFO	2022-12-27 15:31:13	FixMateInformation	Processed   107,000,000 records.  Elapsed time: 00:12:19s.  Time for last 1,000,000:    7s.  Last read position: */*.  Last read name: A00223:818:HJVVJDSX3:3:2672:20265:32236
+INFO	2022-12-27 15:31:21	FixMateInformation	Finished processing reads; re-sorting output file.
+[Tue Dec 27 15:40:16 CST 2022] picard.sam.FixMateInformation done. Elapsed time: 28.21 minutes.
+Runtime.totalMemory()=7506231296
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/tmp/haile023/picard_temp
+INFO	2022-12-27 15:40:17	MarkDuplicates	
+
+********** NOTE: Picard's command line syntax is changing.
+**********
+********** For more information, please see:
+********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
+**********
+********** The command line looks like this in the new syntax:
+**********
+**********    MarkDuplicates -I /scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.sorted.fixed_mate.bam -O /scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.dedup.bam -M /scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.metrics.txt -REMOVE_DUPLICATES true -TMP_DIR /scratch.global/haile023/temp_files -CREATE_INDEX true -VALIDATION_STRINGENCY SILENT -CREATE_MD5_FILE true
+**********
+
+
+15:40:17.549 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/panfs/roc/msisoft/picard/2.25.6/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Tue Dec 27 15:40:17 CST 2022] MarkDuplicates INPUT=[/scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.sorted.fixed_mate.bam] OUTPUT=/scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.dedup.bam METRICS_FILE=/scratch.global/haile023/Etv2KO_D2_DoubleNeg_1_S3.metrics.txt REMOVE_DUPLICATES=true TMP_DIR=[/scratch.global/haile023/temp_files] VALIDATION_STRINGENCY=SILENT CREATE_INDEX=true CREATE_MD5_FILE=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 TAG_DUPLICATE_SET_MEMBERS=false REMOVE_SEQUENCING_DUPLICATES=false TAGGING_POLICY=DontTag CLEAR_DT=true DUPLEX_UMI=false ADD_PG_TAG_TO_READS=true ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates READ_NAME_REGEX=<optimized capture of last three ':' separated fields as numeric values> OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 MAX_OPTICAL_DUPLICATE_SET_SIZE=300000 VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Tue Dec 27 15:40:17 CST 2022] Executing as haile023@acn171.agate.msi.umn.edu on Linux 3.10.0-1160.80.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 1.8.0_202-b08; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.25.6
+INFO	2022-12-27 15:40:17	MarkDuplicates	Start of doWork freeMemory: 2037271408; totalMemory: 2058354688; maxMemory: 28631367680
+INFO	2022-12-27 15:40:17	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2022-12-27 15:40:17	MarkDuplicates	Will retain up to 103736839 data points before spilling to disk.
+INFO	2022-12-27 15:40:23	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:05s.  Time for last 1,000,000:    5s.  Last read position: chr1:24,613,204
+INFO	2022-12-27 15:40:23	MarkDuplicates	Tracking 104972 as yet unmatched pairs. 23278 records in RAM.
+INFO	2022-12-27 15:40:26	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:09s.  Time for last 1,000,000:    3s.  Last read position: chr1:24,615,924
+INFO	2022-12-27 15:40:26	MarkDuplicates	Tracking 248868 as yet unmatched pairs. 10179 records in RAM.
+INFO	2022-12-27 15:40:31	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:13s.  Time for last 1,000,000:    4s.  Last read position: chr1:97,074,946
+INFO	2022-12-27 15:40:31	MarkDuplicates	Tracking 251147 as yet unmatched pairs. 275 records in RAM.
+INFO	2022-12-27 15:40:35	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:17s.  Time for last 1,000,000:    3s.  Last read position: chr1:166,508,839
+INFO	2022-12-27 15:40:35	MarkDuplicates	Tracking 255428 as yet unmatched pairs. 118 records in RAM.
+INFO	2022-12-27 15:40:40	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    5s.  Last read position: chr10:40,707,875
+INFO	2022-12-27 15:40:40	MarkDuplicates	Tracking 259220 as yet unmatched pairs. 518 records in RAM.
+INFO	2022-12-27 15:40:44	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:    3s.  Last read position: chr10:107,809,799
+INFO	2022-12-27 15:40:44	MarkDuplicates	Tracking 262392 as yet unmatched pairs. 148 records in RAM.
+INFO	2022-12-27 15:40:55	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:   11s.  Last read position: chr11:45,935,935
+INFO	2022-12-27 15:40:55	MarkDuplicates	Tracking 265610 as yet unmatched pairs. 488 records in RAM.
+INFO	2022-12-27 15:40:57	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:39s.  Time for last 1,000,000:    2s.  Last read position: chr11:109,011,679
+INFO	2022-12-27 15:40:57	MarkDuplicates	Tracking 268095 as yet unmatched pairs. 432 records in RAM.
+INFO	2022-12-27 15:41:02	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    4s.  Last read position: chr12:59,763,346
+INFO	2022-12-27 15:41:02	MarkDuplicates	Tracking 271310 as yet unmatched pairs. 649 records in RAM.
+INFO	2022-12-27 15:41:06	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:48s.  Time for last 1,000,000:    3s.  Last read position: chr13:10,230,282
+INFO	2022-12-27 15:41:06	MarkDuplicates	Tracking 282116 as yet unmatched pairs. 1447 records in RAM.
+INFO	2022-12-27 15:41:10	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:52s.  Time for last 1,000,000:    3s.  Last read position: chr13:83,092,635
+INFO	2022-12-27 15:41:10	MarkDuplicates	Tracking 284718 as yet unmatched pairs. 615 records in RAM.
+INFO	2022-12-27 15:41:17	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:59s.  Time for last 1,000,000:    7s.  Last read position: chr14:20,181,226
+INFO	2022-12-27 15:41:17	MarkDuplicates	Tracking 287700 as yet unmatched pairs. 1756 records in RAM.
+INFO	2022-12-27 15:41:19	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:01:01s.  Time for last 1,000,000:    2s.  Last read position: chr14:97,023,220
+INFO	2022-12-27 15:41:19	MarkDuplicates	Tracking 289820 as yet unmatched pairs. 598 records in RAM.
+INFO	2022-12-27 15:41:22	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:01:04s.  Time for last 1,000,000:    2s.  Last read position: chr15:49,874,119
+INFO	2022-12-27 15:41:22	MarkDuplicates	Tracking 291978 as yet unmatched pairs. 978 records in RAM.
+INFO	2022-12-27 15:41:25	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:01:07s.  Time for last 1,000,000:    2s.  Last read position: chr16:15,637,310
+INFO	2022-12-27 15:41:25	MarkDuplicates	Tracking 293692 as yet unmatched pairs. 1992 records in RAM.
+INFO	2022-12-27 15:41:30	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:12s.  Time for last 1,000,000:    5s.  Last read position: chr16:89,586,180
+INFO	2022-12-27 15:41:30	MarkDuplicates	Tracking 295630 as yet unmatched pairs. 257 records in RAM.
+INFO	2022-12-27 15:41:33	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:01:15s.  Time for last 1,000,000:    2s.  Last read position: chr17:50,418,553
+INFO	2022-12-27 15:41:33	MarkDuplicates	Tracking 296556 as yet unmatched pairs. 1352 records in RAM.
+INFO	2022-12-27 15:41:36	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:01:18s.  Time for last 1,000,000:    2s.  Last read position: chr18:29,090,170
+INFO	2022-12-27 15:41:36	MarkDuplicates	Tracking 297336 as yet unmatched pairs. 1601 records in RAM.
+INFO	2022-12-27 15:41:53	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:01:35s.  Time for last 1,000,000:   17s.  Last read position: chr19:9,513,404
+INFO	2022-12-27 15:41:53	MarkDuplicates	Tracking 297800 as yet unmatched pairs. 1251 records in RAM.
+INFO	2022-12-27 15:41:56	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:    3s.  Last read position: chr2:22,587,935
+INFO	2022-12-27 15:41:56	MarkDuplicates	Tracking 297854 as yet unmatched pairs. 7986 records in RAM.
+INFO	2022-12-27 15:41:59	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:01:41s.  Time for last 1,000,000:    2s.  Last read position: chr2:91,475,906
+INFO	2022-12-27 15:41:59	MarkDuplicates	Tracking 303306 as yet unmatched pairs. 4425 records in RAM.
+INFO	2022-12-27 15:42:02	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:    3s.  Last read position: chr2:98,667,100
+INFO	2022-12-27 15:42:02	MarkDuplicates	Tracking 442576 as yet unmatched pairs. 140405 records in RAM.
+INFO	2022-12-27 15:42:08	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:01:50s.  Time for last 1,000,000:    5s.  Last read position: chr2:148,680,896
+INFO	2022-12-27 15:42:08	MarkDuplicates	Tracking 304669 as yet unmatched pairs. 965 records in RAM.
+INFO	2022-12-27 15:42:11	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:01:53s.  Time for last 1,000,000:    2s.  Last read position: chr3:38,141,407
+INFO	2022-12-27 15:42:11	MarkDuplicates	Tracking 303858 as yet unmatched pairs. 4234 records in RAM.
+INFO	2022-12-27 15:42:13	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:01:55s.  Time for last 1,000,000:    2s.  Last read position: chr3:111,607,780
+INFO	2022-12-27 15:42:13	MarkDuplicates	Tracking 303216 as yet unmatched pairs. 1722 records in RAM.
+INFO	2022-12-27 15:42:15	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:01:58s.  Time for last 1,000,000:    2s.  Last read position: chr4:20,821,995
+INFO	2022-12-27 15:42:15	MarkDuplicates	Tracking 302500 as yet unmatched pairs. 5315 records in RAM.
+INFO	2022-12-27 15:42:22	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:02:04s.  Time for last 1,000,000:    6s.  Last read position: chr4:96,739,968
+INFO	2022-12-27 15:42:22	MarkDuplicates	Tracking 301516 as yet unmatched pairs. 2183 records in RAM.
+INFO	2022-12-27 15:42:24	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    2s.  Last read position: chr4:156,064,100
+INFO	2022-12-27 15:42:24	MarkDuplicates	Tracking 300586 as yet unmatched pairs. 12 records in RAM.
+INFO	2022-12-27 15:42:27	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:02:10s.  Time for last 1,000,000:    3s.  Last read position: chr5:75,733,424
+INFO	2022-12-27 15:42:27	MarkDuplicates	Tracking 298882 as yet unmatched pairs. 3334 records in RAM.
+INFO	2022-12-27 15:42:33	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:02:15s.  Time for last 1,000,000:    5s.  Last read position: chr5:140,492,373
+INFO	2022-12-27 15:42:33	MarkDuplicates	Tracking 297538 as yet unmatched pairs. 666 records in RAM.
+INFO	2022-12-27 15:42:36	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:02:18s.  Time for last 1,000,000:    3s.  Last read position: chr6:62,315,593
+INFO	2022-12-27 15:42:36	MarkDuplicates	Tracking 294778 as yet unmatched pairs. 5492 records in RAM.
+INFO	2022-12-27 15:42:38	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:02:20s.  Time for last 1,000,000:    2s.  Last read position: chr6:124,576,903
+INFO	2022-12-27 15:42:38	MarkDuplicates	Tracking 291428 as yet unmatched pairs. 1276 records in RAM.
+INFO	2022-12-27 15:42:42	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:02:24s.  Time for last 1,000,000:    3s.  Last read position: chr7:40,503,760
+INFO	2022-12-27 15:42:42	MarkDuplicates	Tracking 289028 as yet unmatched pairs. 5281 records in RAM.
+INFO	2022-12-27 15:43:12	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:02:54s.  Time for last 1,000,000:   29s.  Last read position: chr7:109,613,874
+INFO	2022-12-27 15:43:12	MarkDuplicates	Tracking 286172 as yet unmatched pairs. 1612 records in RAM.
+INFO	2022-12-27 15:43:15	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:02:57s.  Time for last 1,000,000:    2s.  Last read position: chr8:27,895,714
+INFO	2022-12-27 15:43:15	MarkDuplicates	Tracking 283674 as yet unmatched pairs. 5560 records in RAM.
+INFO	2022-12-27 15:43:17	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:02:59s.  Time for last 1,000,000:    2s.  Last read position: chr8:94,152,044
+INFO	2022-12-27 15:43:17	MarkDuplicates	Tracking 280480 as yet unmatched pairs. 1731 records in RAM.
+INFO	2022-12-27 15:43:21	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:03:03s.  Time for last 1,000,000:    3s.  Last read position: chr9:21,091,774
+INFO	2022-12-27 15:43:21	MarkDuplicates	Tracking 277650 as yet unmatched pairs. 6867 records in RAM.
+INFO	2022-12-27 15:43:25	MarkDuplicates	Read    38,000,000 records.  Elapsed time: 00:03:07s.  Time for last 1,000,000:    4s.  Last read position: chr9:89,067,484
+INFO	2022-12-27 15:43:25	MarkDuplicates	Tracking 273482 as yet unmatched pairs. 2406 records in RAM.
+INFO	2022-12-27 15:43:45	MarkDuplicates	Read    39,000,000 records.  Elapsed time: 00:03:27s.  Time for last 1,000,000:   19s.  Last read position: chrM:581
+INFO	2022-12-27 15:43:45	MarkDuplicates	Tracking 300237 as yet unmatched pairs. 287250 records in RAM.
+INFO	2022-12-27 15:43:47	MarkDuplicates	Read    40,000,000 records.  Elapsed time: 00:03:29s.  Time for last 1,000,000:    2s.  Last read position: chrM:1,966
+INFO	2022-12-27 15:43:47	MarkDuplicates	Tracking 300137 as yet unmatched pairs. 287150 records in RAM.
+INFO	2022-12-27 15:43:53	MarkDuplicates	Read    41,000,000 records.  Elapsed time: 00:03:35s.  Time for last 1,000,000:    5s.  Last read position: chrM:3,429
+INFO	2022-12-27 15:43:53	MarkDuplicates	Tracking 301594 as yet unmatched pairs. 288607 records in RAM.
+INFO	2022-12-27 15:43:56	MarkDuplicates	Read    42,000,000 records.  Elapsed time: 00:03:38s.  Time for last 1,000,000:    2s.  Last read position: chrM:4,923
+INFO	2022-12-27 15:43:56	MarkDuplicates	Tracking 299503 as yet unmatched pairs. 286516 records in RAM.
+INFO	2022-12-27 15:43:58	MarkDuplicates	Read    43,000,000 records.  Elapsed time: 00:03:40s.  Time for last 1,000,000:    2s.  Last read position: chrM:6,291
+INFO	2022-12-27 15:43:58	MarkDuplicates	Tracking 302560 as yet unmatched pairs. 289573 records in RAM.
+INFO	2022-12-27 15:44:00	MarkDuplicates	Read    44,000,000 records.  Elapsed time: 00:03:42s.  Time for last 1,000,000:    2s.  Last read position: chrM:8,858
+INFO	2022-12-27 15:44:00	MarkDuplicates	Tracking 147075 as yet unmatched pairs. 134088 records in RAM.
+INFO	2022-12-27 15:44:06	MarkDuplicates	Read    45,000,000 records.  Elapsed time: 00:03:48s.  Time for last 1,000,000:    6s.  Last read position: chrM:11,409
+INFO	2022-12-27 15:44:06	MarkDuplicates	Tracking 50349 as yet unmatched pairs. 37362 records in RAM.
+INFO	2022-12-27 15:44:08	MarkDuplicates	Read    46,000,000 records.  Elapsed time: 00:03:51s.  Time for last 1,000,000:    2s.  Last read position: chrM:12,766
+INFO	2022-12-27 15:44:08	MarkDuplicates	Tracking 57657 as yet unmatched pairs. 44670 records in RAM.
+INFO	2022-12-27 15:44:11	MarkDuplicates	Read    47,000,000 records.  Elapsed time: 00:03:53s.  Time for last 1,000,000:    2s.  Last read position: chrM:14,115
+INFO	2022-12-27 15:44:11	MarkDuplicates	Tracking 56316 as yet unmatched pairs. 43329 records in RAM.
+INFO	2022-12-27 15:44:17	MarkDuplicates	Read    48,000,000 records.  Elapsed time: 00:03:59s.  Time for last 1,000,000:    5s.  Last read position: chrM:15,652
+INFO	2022-12-27 15:44:17	MarkDuplicates	Tracking 62000 as yet unmatched pairs. 49013 records in RAM.
+INFO	2022-12-27 15:44:21	MarkDuplicates	Read    49,000,000 records.  Elapsed time: 00:04:03s.  Time for last 1,000,000:    4s.  Last read position: chrX:95,839,456
+INFO	2022-12-27 15:44:21	MarkDuplicates	Tracking 7752 as yet unmatched pairs. 4384 records in RAM.
+INFO	2022-12-27 15:44:24	MarkDuplicates	Read    50,000,000 records.  Elapsed time: 00:04:06s.  Time for last 1,000,000:    2s.  Last read position: chrUn_JH584304:59,797
+INFO	2022-12-27 15:44:24	MarkDuplicates	Tracking 1210 as yet unmatched pairs. 1210 records in RAM.
+INFO	2022-12-27 15:44:24	MarkDuplicates	Read 50101884 records. 0 pairs never matched.
+INFO	2022-12-27 15:45:01	MarkDuplicates	After buildSortedReadEndLists freeMemory: 9971206624; totalMemory: 16217800704; maxMemory: 28631367680
+INFO	2022-12-27 15:45:01	MarkDuplicates	Will retain up to 894730240 duplicate indices before spilling to disk.
+INFO	2022-12-27 15:45:02	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2022-12-27 15:46:14	OpticalDuplicateFinder	Large duplicate set. size = 1733
+INFO	2022-12-27 15:46:15	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:6,931
+INFO	2022-12-27 15:46:15	OpticalDuplicateFinder	Large duplicate set. size = 1687
+INFO	2022-12-27 15:46:15	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:32,127
+INFO	2022-12-27 15:46:16	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2022-12-27 15:46:18	MarkDuplicates	Sorting list of duplicate records.
+INFO	2022-12-27 15:46:19	MarkDuplicates	After generateDuplicateIndexes freeMemory: 20615910720; totalMemory: 27887927296; maxMemory: 28631367680
+INFO	2022-12-27 15:46:19	MarkDuplicates	Marking 17539969 records as duplicates.
+INFO	2022-12-27 15:46:19	MarkDuplicates	Found 398914 optical duplicate clusters.
+INFO	2022-12-27 15:46:19	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2022-12-27 15:48:07	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:47s.  Time for last 10,000,000:  107s.  Last read position: chr15:33,798,826
+INFO	2022-12-27 15:49:52	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:03:32s.  Time for last 10,000,000:  104s.  Last read position: chr4:116,839,949
+INFO	2022-12-27 15:51:34	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:05:14s.  Time for last 10,000,000:  102s.  Last read position: chrM:7,804
+INFO	2022-12-27 15:52:52	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:06:33s.  Time for last 10,000,000:   78s.  Last read position: */*
+INFO	2022-12-27 15:53:57	MarkDuplicates	Written    50,000,000 records.  Elapsed time: 00:07:37s.  Time for last 10,000,000:   64s.  Last read position: */*
+INFO	2022-12-27 15:55:04	MarkDuplicates	Written    60,000,000 records.  Elapsed time: 00:08:45s.  Time for last 10,000,000:   67s.  Last read position: */*
+INFO	2022-12-27 15:56:09	MarkDuplicates	Written    70,000,000 records.  Elapsed time: 00:09:50s.  Time for last 10,000,000:   64s.  Last read position: */*
+INFO	2022-12-27 15:57:12	MarkDuplicates	Written    80,000,000 records.  Elapsed time: 00:10:53s.  Time for last 10,000,000:   63s.  Last read position: */*
+INFO	2022-12-27 15:58:17	MarkDuplicates	Written    90,000,000 records.  Elapsed time: 00:11:57s.  Time for last 10,000,000:   64s.  Last read position: */*
+INFO	2022-12-27 15:58:18	MarkDuplicates	Writing complete. Closing input iterator.
+INFO	2022-12-27 15:58:18	MarkDuplicates	Duplicate Index cleanup.
+INFO	2022-12-27 15:58:18	MarkDuplicates	Getting Memory Stats.
+INFO	2022-12-27 15:58:18	MarkDuplicates	Before output close freeMemory: 28072337296; totalMemory: 28257026048; maxMemory: 28631367680
+INFO	2022-12-27 15:58:18	MarkDuplicates	Closed outputs. Getting more Memory Stats.
+INFO	2022-12-27 15:58:18	MarkDuplicates	After output close freeMemory: 28411551240; totalMemory: 28596240384; maxMemory: 28631367680
+[Tue Dec 27 15:58:18 CST 2022] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 18.02 minutes.
+Runtime.totalMemory()=28596240384
