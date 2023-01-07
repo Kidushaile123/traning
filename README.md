@@ -121,4 +121,4 @@
 [Etv2KO_D3_DoubleNeg_2_S20.dedup.bam.bai](https://haile023.s3.msi.umn.edu/Etv2KO_D3_DoubleNeg_2_S20.dedup.bam.bai)<br> 
 [iEtv2_D4_PDGFRaPos_2_S28.dedup.bai](https://haile023.s3.msi.umn.edu/iEtv2_D4_PDGFRaPos_2_S28.dedup.bai)<br> 
 [iEtv2_D4_PDGFRaPos_2_S28.dedup.bam.bai](https://haile023.s3.msi.umn.edu/iEtv2_D4_PDGFRaPos_2_S28.dedup.bam.bai)<br>
-[iEtv2_D2_DoubleNeg_1_S1_control_lambda.bw](http://s3.msi.umn.edu/haile023_test/iEtv2_D2_DoubleNeg_1_S1_control_lambda.bw)
+[iEtv2_D2_DoubleNeg_1_S1_control_lambda.bw](http://s3.msi.umn.edu/haile023_test/iEtv2_D2_DoubleNeg_1_S1_control_lambda.bw/)
